@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_invoice.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".mainActivities.InvoiceActivity">
+
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/email_field"
+        android:hint="Product Name"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/buyerEditText"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/email_field"
+        android:hint="Buyer"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/email_field"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/email_field"
+            android:hint="Date"
+            android:paddingLeft="10dp" />
+
+        <View
+            android:id="@+id/calendar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/calendar"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/email_field"
+        android:hint="Product Price"
+        android:inputType="numberDecimal"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/invoiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#3E3E3E"
+        android:text="Invoice"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <!-- Table Heading -->
+
+        <TableRow
+            android:background="#565657">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:layout_marginLeft="-20dp"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buyer"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:layout_marginLeft="-15dp"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:text="Quantity"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price(Dh)"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

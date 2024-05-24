@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="your_button_color">#000000</color>
+    <color name="your_footer_background_color">#FFFFFFFF</color>
+    <color name="your_color_here">#FF873F</color>
+    <color name="your_thumb_color">#9C27B0</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorGreen">#54545977</color>
+
+</resources>

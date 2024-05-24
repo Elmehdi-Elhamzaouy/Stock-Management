@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">stock_managment_app</string>
+    <string name="title">
+        Login
+    </string>
+    <string name="icon">
+        🔒
+    </string>
+
+    <string name="info">
+        Username Must be at least 6 characters long
+    </string>
+
+    <string name="off">
+        20% OFF
+    </string>
+    <string name="winter_coll">
+        Winter collection
+    </string>
+    <string name="new_product">
+        New products
+    </string>
+    <string name="unleash_inn">
+        Unleash innovation and style in our New Arrivals! Click for the latest in fashion, tech, and lifestyle. Redefine the way you shop and live with our curated selection of cutting-edge items. Elevate your style effortlessly!
+    </string>
+    <string name="top_trends_shoes">
+        Top trends shoes
+    </string>
+    <string name="top_trends_hoodies">
+        Top trends hoodies
+    </string>
+
+    <string name="category_hint">Category</string>
+    <string-array name="category_array">
+        <item>Category</item>
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Food and Beverage</item>
+        <item>Home and Garden</item>
+        <item>Health and Beauty</item>
+        <item>Sports and Outdoors</item>
+        <item>Toys and Games</item>
+        <item>Automotive</item>
+        <item>Books and Media</item>
+        <item>Office Supplies</item>
+    </string-array>
+
+
+    <string name="gender"> Gender </string>
+    <string name="size"> Size </string>
+    <string name="price"> Price </string>
+    <string name="colors"> Colors </string>
+
+
+</resources>
